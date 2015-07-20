@@ -6,6 +6,8 @@ source env.sh
 
 npm install
 npm prune
+linklocal link -r &&
+  linklocal list -r | bulk -c 'npm install'
 
 electron-rebuild -f
 bin/install-test-fixtures

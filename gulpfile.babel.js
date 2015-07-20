@@ -34,7 +34,10 @@ var globs = {
   rc_files: ['./.js*rc'],
   static: ['./static/**/*', './resources/**/*'],
   test_support: ['test/support/**/*.js'],
-  unit_tests: ['test/unit/**/*.js'],
+  unit_tests: [
+    'test/unit/**/*.js',
+    'packages/*/test/**/*.js',
+  ],
 }
 
 globs.allJS = [].concat(

@@ -17,6 +17,7 @@
   "homepage": "https://github.com/bridgefog/desktop",
   "devDependencies": {
     "babel-core": "^5.4.7",
+    "bulk": "^2.0.0",
     "chai": "^3.0.0",
     "del": "^1.2.0",
     "dev-null": "^0.1.1",
@@ -40,6 +41,7 @@
     "jscs": "^1.11.3",
     "jshint-jsx": "^0.4.1",
     "jshint-stylish": "^1.0.1",
+    "linklocal": "^2.5.2",
     "mocha": "^2.2.1",
     "rmrf": "^1.0.2",
     "sinon": "^1.14.1",
@@ -48,7 +50,10 @@
   "dependencies": {
     "acoustid": "bridgefog/node-acoustid",
     "alt": "^0.16.2",
-    "atm-ipfs-api": "^0.1.2-alpha1",
+    "atm-ipfs-api": "file:packages/ipfs-api",
+    "hash-decorator": "file:packages/hash-decorator",
+    "clubnet": "file:packages/clubnet",
+    "badge": "file:packages/badge",
     "babel-runtime": "^5.4.7",
     "bs58": "^2.0.1",
     "coverart": "0.0.1",

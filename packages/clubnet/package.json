@@ -1,0 +1,14 @@
+{
+  "name": "clubnet",
+  "version": "1.0.0",
+  "description": "Join a specialized network on IPFS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}

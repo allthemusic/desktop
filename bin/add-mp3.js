@@ -11,8 +11,8 @@ import tmp from 'tmp'
 import R from 'ramda'
 import { Set } from 'immutable'
 import { IPFSClient, DagObject, util as ipfsUtil } from 'atm-ipfs-api'
-import Clubnet from '../lib/clubnet'
-import Badge from '../lib/badge'
+import Clubnet from 'clubnet'
+import Badge from 'badge'
 
 const ACOUSTID_APP_TOKEN = 'OomsDyzs'
 

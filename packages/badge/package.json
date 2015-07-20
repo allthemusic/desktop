@@ -1,0 +1,14 @@
+{
+  "name": "badge",
+  "version": "1.0.0",
+  "description": "Create a badge on IPFS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}

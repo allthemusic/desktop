@@ -1,0 +1,6 @@
+.git/
+lib/
+test/
+gulpfile.js
+*.sh
+Makefile
