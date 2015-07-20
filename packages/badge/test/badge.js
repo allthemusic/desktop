@@ -1,5 +1,5 @@
 import { assert } from 'chai'
-import Badge from '../../lib/badge'
+import Badge from 'badge'
 
 describe('Badge', function () {
   var now = Date.now()

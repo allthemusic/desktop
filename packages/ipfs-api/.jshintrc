@@ -1,0 +1,16 @@
+{
+    "unused": true,
+    "node": true,
+    "mocha": true,
+    "asi": true,
+    "freeze": true,
+    "forin": true,
+    "curly": true,
+    "esnext": true,
+    "globals": {
+      "Promise": true,
+      "Blob": true,
+      "XMLHttpRequest": true,
+      "FormData": true
+    }
+}

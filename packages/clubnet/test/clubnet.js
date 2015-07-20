@@ -2,8 +2,8 @@ import sinon from 'sinon'
 import streamify from 'stream-array'
 import { assert } from 'chai'
 import R from 'ramda'
-import Clubnet from '../../lib/clubnet'
-import Badge from '../../lib/badge'
+import Clubnet from 'clubnet'
+import Badge from 'badge'
 
 describe('Clubnet', function () {
   var discoveredProviders = [

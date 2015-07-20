@@ -1,0 +1,59 @@
+{
+  "name": "atm-ipfs-api",
+  "version": "0.1.2-alpha1",
+  "description": "IPFS API wrapper",
+  "main": "dist/index.js",
+  "scripts": {
+    "init": "make init",
+    "test": "node_modules/.bin/gulp test",
+    "ci": "node_modules/.bin/istanbul cover node_modules/.bin/gulp test",
+    "prepublish": "node_modules/.bin/gulp build"
+  },
+  "homepage": "https://github.com/allthemusic/ipfs-api",
+  "bugs": "https://github.com/allthemusic/ipfs-api/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allthemusic/ipfs-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^5.4.7",
+    "concat-stream": "^1.4.8",
+    "core-js": "^0.9.6",
+    "form-data": "0.2.0",
+    "immutable": "^3.6.4",
+    "ramda": "^0.13.0",
+    "split2": "^0.2.1",
+    "through2": "^0.6.5",
+    "through2-map": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel": "~5.4",
+    "chai": "^2.1.2",
+    "chai-as-promised": "^5.0.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-mocha": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-util": "^3.0.4",
+    "istanbul": "^0.3.8",
+    "jscs": "^1.12.0",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.1",
+    "stream-array": "^1.1.0",
+    "stubby": "^0.2.11",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "config": {
+    "ipfs_endpoint": "http://localhost:5001"
+  },
+  "browser": {
+    "./lib/http-post-form.js": "./lib/http-post-form-browser.js"
+  }
+}

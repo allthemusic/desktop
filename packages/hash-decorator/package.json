@@ -1,0 +1,11 @@
+{
+  "name": "hash-decorator",
+  "version": "1.0.0",
+  "description": "Deterministically pick three words to tag a specific hash",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Nathan Amick, Ryan Long",
+  "license": "ISC"
+}
